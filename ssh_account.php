@@ -11,8 +11,8 @@
  * 
  * 	 Notice:
  * 	 1. Remember to start iptables service
- *   2. Remember to chmod+x
- *   3. How to start running this script?
+ * 	 2. Remember to chmod+x
+ * 	 3. How to start running this script?
  * 		setsid /usr/bin/tail -n 0 -F /var/log/auth.log |/root/ssh_account.php 2>/dev/null &
  * 		suppose this script save as /root/ssh_account.php
  * 		notice that the auth log file was /var/log/secre in CentOS and other RedHat-based distros
